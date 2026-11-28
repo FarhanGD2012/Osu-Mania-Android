@@ -1,0 +1,17 @@
+{
+  "name": "novabeat-server",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Server akun, teman, leaderboard, dan room multiplayer untuk Nova Beat",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "maintain": "node maintenance.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "argon2": "^0.41.1"
+  }
+}
